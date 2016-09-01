@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head> 
+ <title>Övning 1</title> 
+  <meta charset="utf-8"/>
+<h1>Övning 1</h1>
+<br>
+<h3>Introduktion</h3>
+<br>
+<p> Vi testar om detta fungerar över huvudtaget.test test test.</P>
+<br>
+<h3><strong>Forsättning</strong></h3>
+<br>
+<p> I kursen HTML och CSS ska vi lära oss att använda paragrafer,<br>radbrytningar<br>och <em>andra</em><strong>sorters</strong><u>formateringar.</u>
+<img source="http://www.dumpdaddy.com/wp-content/uploads/2016/05/funny-527.jpg"/>
+
+
+  
