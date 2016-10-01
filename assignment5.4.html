@@ -32,8 +32,18 @@
     .formular{
         position: absolute;
         top:40%;
-        width: 100%;
-        height: 40%;}
+        width: auto;
+        height: auto;
+        border: solid lightgrey;
+        float: left;
+        padding: 2em;
+        font-family: sans-serif;
+    }
+  
+        
+
+   
+    
     
 
 </style>
@@ -53,15 +63,46 @@
 
     <div class="formular">
         <form>
+            <h3>Cykel försäljning</h3>
             <p>Försäkring</p>
+            <input type="radio" name="group1" value="Ja"> Ja<br>
+            <input type="radio" name="group1" value="Nej"> Nej<br>
+            <p>Choose color</p>
+            <input type="color" label="colorbutton"> 
             <br>
-    
-            <input type="checkbox" name="group1" value="Ja"> Ja<br>
-            <input type="checkbox" name="group2" value="Nej"> Nej<br>
+            <p>Modell</p>
+            <select>
+            <optgroup label="Cykel">
+                <option>Cressent</option>
+                <option>Kronan</option>
+                </optgroup>
+            </select>
 <hr>
-            First name  <input type="text" value="Daniel"/><br>
-            Last  name <input type="text" value="Karlsson"/><br>
-            <input type="button" name="group3" value="Submite"
+             
+            <input type="text" class="textinput" placeholder="First name"/>
+            <input type="text" class="textinput" placeholder="Last name"/>
+            <br>
+            <input type="text" class="textinput" placeholder="City">
+            <input type="text" class="textinput" placeholder="Street number">
+            <br>
+            <input type="text" class="textinput" placeholder="Address">
+        
+<hr>
+        <p>Bank</p>
+        <select>
+            <optgroup label="Bank">
+                <option>SEB</option>
+                <option>Swedbank</option>
+                <option>Ikanobank</option>
+            </optgroup>
+        </select>
+            <input type="text" class="textinput" placeholder="Konton-nummer">
+            <input type="text" class="textinput" placeholder="CCV">
+            <br>
+            
+            <input type="checkbox" name="box"><label for="box">Verifier att du har godkänt köpet</label>
+            <br>
+            <input type="button" name="button1" value="Bekräfta köp">
         </form>
     </div>
 
