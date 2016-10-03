@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+<head>
+    
+</head>
+    <style>
+        .apa-item{
+            float: left;
+            padding: 4px
+        }
+        .apa2-item{
+            float: right;
+            padding: 4px;
+        }
+        div{
+            border: 1px soldi black; 
+            padding: 14px;
+            background-color: green;
+        }
+        
+        .table-item{
+            display: table;
+            background-color: aqua;
+        }
+        .table-item > div {
+            display: table-row; 
+        }
+        .table-item > div > div{
+            display: table-cell;
+            background-color: yellow;
+        }
+        #test{
+            display: inline-flex;
+            flex-direction: column;
+            border: 2px solid black;            
+        }
+        #test{
+            flex: 1 1 auto;
+        }
+        .header{
+            border: 2px solid black;
+            background-color: blue;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            
+        }
+        .container > *{
+                    flex: 1 1 auto;
+        }
+        .nav{
+            border: 2px solid black;
+            background-color: red;
+            width: 100px;
+            height: 300px;
+        }
+        .article{
+            border: 2px solid black;
+            background-color: burlywood;
+            width: 400px;
+            height: 300px;
+        }
+        .aside{
+            border: 2px solid black;
+            background-color: red;
+            width: 100px;
+            height: 300px;
+        }
+        .footer{
+            border: 2px solid black;
+            background-color: blue;
+        }
+        
+        
+    </style>
+    <body>
+        <div class="text-item">
+            <img src="apa.jpg" class="apa-item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula gravida tristique. Morbi dolor lorem, imperdiet et diam in, feugiat auctor diam. Proin non lacus suscipit, congue diam vel, euismod elit. Aliquam sollicitudin rhoncus turpis eu consectetur. Aliquam porta gravida laoreet. Suspendisse quis luctus ligula, at blandit enim. Mauris egestas sem quis odio commodo viverra. Pellentesque tincidunt, sapien id consectetur venenatis, velit risus venenatis libero, quis scelerisque velit mi at lectus. Integer ut mollis lacus. Cras quis sagittis nisi. Curabitur semper non augue in feugiat. Suspendisse vestibulum commodo risus, non placerat mauris mollis sit amet. Donec cursus neque rutrum tristique ultricies. Suspendisse nec lectus blandit, mattis ligula quis, accumsan est. Phasellus imperdiet nec nisl in efficitur.
+
+                Maecenas quis nisl at ex ornare egestas ut vitae elit. Mauris vitae bibendum felis, in hendrerit augue. Vestibulum eget magna tristique lectus finibus fringilla. Suspendisse nec convallis nibh. Nullam tristique, augue vel iaculis pulvinar, mauris augue imperdiet neque, cursus rutrum orci sem nec massa. Pellentesque id tincidunt justo. Vivamus fermentum nec purus eget ultricies.
+                <img src="apa2.jpg" class="apa2-item">
+
+                Vivamus in diam rhoncus, efficitur ipsum sit amet, sagittis lectus. Duis pretium velit orci, vitae semper mi tincidunt at. Mauris mollis eget erat eget dapibus. Cras vel massa turpis. Proin nibh magna, commodo vel sollicitudin at, mattis et tortor. Nulla faucibus magna vitae ante maximus pharetra. Suspendisse sit amet scelerisque diam, vitae consequat lectus. Vivamus eu lectus dapibus, egestas eros interdum, gravida lorem. Nunc faucibus velit et mi porta, vitae consequat erat efficitur.Vivamus in diam rhoncus, efficitur ipsum sit amet, sagittis lectus. Duis pretium velit orci, vitae semper mi tincidunt at. Mauris mollis eget erat eget dapibus. Cras vel massa turpis. Proin nibh magna, commodo vel sollicitudin at, mattis et tortor. Nulla faucibus magna vitae ante maximus pharetra. Suspendisse sit amet scelerisque diam, vitae consequat lectus. Vivamus eu lectus dapibus, egestas eros interdum, gravida lorem. Nunc faucibus velit et mi porta, vitae consequat erat efficitur.Vivamus in diam rhoncus, efficitur ipsum sit amet, sagittis lectus. Duis pretium velit orci, vitae semper mi tincidunt at. Mauris mollis eget erat eget dapibus. Cras vel massa turpis. Proin nibh magna, commodo vel sollicitudin at, mattis et tortor. Nulla faucibus magna vitae ante maximus pharetra. Suspendisse sit amet scelerisque diam, vitae consequat lectus. Vivamus eu lectus dapibus, egestas eros interdum, gravida lorem. Nunc faucibus velit et mi porta, vitae consequat erat efficitur.Vivamus in diam rhoncus, efficitur ipsum sit amet, sagittis lectus. Duis pretium velit orci, vitae semper mi tincidunt at. Mauris mollis eget erat eget dapibus. Cras vel massa turpis. Proin nibh magna, commodo vel sollicitudin at, mattis et tortor. Nulla faucibus magna vitae ante maximus pharetra. Suspendisse sit amet scelerisque diam, vitae consequat lectus. Vivamus eu lectus dapibus, egestas eros interdum, gravida lorem. Nunc faucibus velit et mi porta, vitae consequat erat efficitur.Vivamus in diam rhoncus, efficitur ipsum sit amet, sagittis lectus. Duis pretium velit orci, vitae semper mi tincidunt at. Mauris mollis eget erat eget dapibus. Cras vel massa turpis. Proin nibh magna, commodo vel sollicitudin at, mattis et tortor. Nulla faucibus magna vitae ante maximus pharetra. Suspendisse sit amet scelerisque diam, vitae consequat lectus. Vivamus eu lectus dapibus, egestas eros interdum, gravida lorem. Nunc faucibus velit et mi porta, vitae consequat erat efficitur.
+            </p>
+    </div>
+    <div class="table-item">
+        <div>
+            <div>hej1</div>
+            <div>hej2</div>
+            <div>hej3</div>
+        </div>
+        <div>
+            <div>hej4</div>
+            <div>hej5</div>
+            <div>hej6</div>
+        </div>
+            
+        
+        </div>
+        <div id="flexdiv">
+            <div class="header">
+                <p>header</p>
+            </div>
+                <div class="container">
+                    <div class="nav">
+                        <p>nav</p>
+                    </div>
+                    <div class="article">
+                        <p>aside</p>
+                    </div>
+                    <div class="aside">
+                        <p>article</p>
+                    </div>
+                </div>
+            <div class="footer">
+                <p>footer</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
