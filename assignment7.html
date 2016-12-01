@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    </head>
+    <style>
+        .flexdiv{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+        }
+        .flexdiv > div{
+            flex: 1 1 auto;
+            border: 2px solid blue;
+            padding: 4px;
+            margin: 2px;
+            height: 200px;
+            width: 100px;
+            background-color: red;
+            
+        }
+        @media (min-width: 600px) and (max-width: 1050px) {
+            .flexdiv{
+                display: flex;
+                flex-direction: column;
+            }
+            .flexdiv > div{
+                flex: 1 1 auto;
+                background-color: aqua;
+            }
+        }    
+    </style>
+    <body>
+        <div class="flexdiv">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+        </div>
+
+
+    </body>
+
+
+
+
+</html>
