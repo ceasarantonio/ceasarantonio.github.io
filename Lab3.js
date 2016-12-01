@@ -69,7 +69,6 @@ function Rectangle( x1, y1, x2, y2, x3, y3, x4, y4) {
   let circleUsed = false;
   let triangleUsed = false;
   let rectangleUsed = false;
-  let colorUsed = false;
   let type = ''; 
   
   let canvas = document.getElementsByTagName('canvas')[0];
@@ -82,11 +81,21 @@ function Rectangle( x1, y1, x2, y2, x3, y3, x4, y4) {
   let hex = document.getElementById('hex');
   let json = document.getElementById('json');
   let textruta = document.getElementById('textruta');
+  let avbryt = document.getElementById('avbryt');
   
   pickColor.addEventListener('change', function (event){
     if(pickColor.value != 'choose'){
       colorPallet.value = pickColor.value;
     }
+  });
+  
+  avbryt.addEventListener('click', function (event){
+    temporaryArray = [];
+    saveDrawings = [];
+    circleUsed = false;
+    triangleUsed = false;
+    rectangleUsed = false;
+    status.innerHTML = 'status: Välj en figur'; 
   });
   
   chooseColor.addEventListener('click', function (event){
