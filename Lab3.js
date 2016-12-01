@@ -91,7 +91,6 @@ function Rectangle( x1, y1, x2, y2, x3, y3, x4, y4) {
   
   avbryt.addEventListener('click', function (event){
     temporaryArray = [];
-    saveDrawings = [];
     circleUsed = false;
     triangleUsed = false;
     rectangleUsed = false;
